@@ -1,0 +1,12 @@
+- DOM tree
+    - [DOM4](https://dom.spec.whatwg.org/)
+- flow content
+    - 通常の文字データと混在するフロー要素で構成されます
+    - [フロー要素](http://w3c.github.io/html-reference/common-models.html#common.elem.flow)
+- phrasing content
+    - 通常の文字データと混在するフレーズ要素で構成されます。
+    - [フレーズ要素](http://w3c.github.io/html-reference/common-models.html#common.elem.phrasing)
+- transparent
+    - 特定の要素fooのコンテンツモデルがトランスペアレントであると記述されている場合、それは
+        - foo要素が親要素bar(フロー要素を含めることができるコンテンツモデル) の子要素である場合、foo要素のコンテンツはフロー要素を含めることが可能
+        - foo要素が親要素baz(子要素がフレージング要素だけを含めることしかできないコンテンツモデル)の子要素である場合、foo要素の全ての子要素はフレージング要素であることを制限される
